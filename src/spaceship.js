@@ -10,7 +10,7 @@ class Spaceship {
     crew.length ? (this.docked = false) : (this.docked = true);
     this.setCrewCurrentShip();
   }
-  
+
   setCrewCurrentShip() {
     this.crew.forEach((crew) => {
       crew.currentShip = this;
